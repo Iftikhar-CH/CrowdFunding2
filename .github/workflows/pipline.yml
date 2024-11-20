@@ -1,4 +1,4 @@
-name: Deploy Docker-Compose application
+name: Deploy Docker-Compose Application
 
 on:
   push:
