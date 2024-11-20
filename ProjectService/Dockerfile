@@ -1,4 +1,4 @@
-# Utilisez une image de base Node.js
+# Utilisez une image  Node.js
 FROM node:18
 # MÉTADONNÉES DE L'IMAGE
 LABEL version="1.0" maintainer="CHETOUI IFTIKHAR <chetouiiftikhar@gmail.com>"
