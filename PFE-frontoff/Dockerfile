@@ -6,7 +6,7 @@ COPY . .
 RUN npm install -g @angular/cli
 RUN npm install --force
 RUN ng build
-
+# serveur Web
 FROM nginx:alpine
 RUN rm /etc/nginx/conf.d/default.conf
 COPY default.conf /etc/nginx/conf.d/
