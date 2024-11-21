@@ -15,7 +15,7 @@ services:
     volumes:
       - mongo_data:/data/db
 
-  # Service Backend avec Node.js
+  # Service Backend Node.js
   backend: 
     image: chetouiiftikhar/project-img:latest
     container_name: backend
